@@ -39,7 +39,6 @@ def imprimir_diccionario(diccionario):
         print(f"{producto['nombre']:<15} $ {producto['precio'] :>9.2f}")
     print("")
 
-
 # Lista simulada de productos en forma de diccionario
 productos = [
     {"nombre": "Auriculares", "precio": 100000},
@@ -52,6 +51,7 @@ productos = [
 # Validación:
 print("Lista original:")
 imprimir_diccionario(productos)
+
 
 #Búsqueda
 nombre = input("Ingrese el artículo a buscar: ")
